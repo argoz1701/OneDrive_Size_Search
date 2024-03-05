@@ -1,3 +1,5 @@
+#Connect-PnPOnline -Url "https://halifaxorg-admin.sharepoint.com" -UseWebLogin
+
 # Function to get OneDrive statistics for specific users.
 Function Get-OneDriveStatsByUsername {
     param (
